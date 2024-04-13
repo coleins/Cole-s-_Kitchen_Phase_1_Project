@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(136, 182, 172);
+  max-width: max-content;
+  margin: auto;
+}
+
+#recipe-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipe {
+  width: 30%;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.recipe h2 {
+  margin-top: 0;
+}
+
+.recipe p {
+  margin-bottom: 5px;
+}
+
+#ingredients-input {
+  margin-bottom: 10px;
+}
