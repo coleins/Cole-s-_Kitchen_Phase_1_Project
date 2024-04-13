@@ -3,9 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const ingredientsInput = document.getElementById("ingredients-input");
   const recipeContainer = document.getElementById("recipe-container");
 
-  //   require("dotenv").config();
-  //   console.log(process.env);
-
   searchBtn.addEventListener("click", function () {
     const ingredients = ingredientsInput.value;
     if (ingredients == "") {
